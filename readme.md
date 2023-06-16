@@ -22,5 +22,5 @@ The image bellow display the 3 debuging options configured in the `launch.json` 
 
 ### TODO
 
-- Create a sample test suite
+- ~~Create a sample test suite~~
 - improve this documentation
