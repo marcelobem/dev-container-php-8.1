@@ -1,0 +1,26 @@
+{
+	"name": "PHP 8.1 Sample Environment",
+	"image": "mcr.microsoft.com/devcontainers/php:0-8.1",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot"
+			]
+		}
+	},
+
+	"forwardPorts": [
+		8080
+	],
+	
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {},
+		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {},
+		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
+	},
+
+	"postCreateCommand": "cd php && composer install",
+
+	"remoteUser": "root"
+}
